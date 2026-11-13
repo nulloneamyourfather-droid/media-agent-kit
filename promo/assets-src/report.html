@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1080px; height:1440px; background:#1E1E2E; font-family:Consolas,"Microsoft YaHei",monospace; color:#CDD6F4; padding:0; }
+  .bar { height:70px; background:#313244; display:flex; align-items:center; padding:0 36px; }
+  .dot { width:22px; height:22px; border-radius:50%; margin-right:14px; }
+  .r { background:#F38BA8; } .y { background:#F9E2AF; } .g { background:#A6E3A1; }
+  .bar span { margin-left:22px; font-size:26px; color:#A6ADC8; }
+  .inner { padding:56px 64px; font-size:31px; line-height:1.62; }
+  .hd { color:#F9E2AF; font-weight:700; font-size:36px; margin-bottom:28px; }
+  .risk { color:#F38BA8; font-weight:700; }
+  .lvl1 { color:#F38BA8; font-weight:700; margin-top:34px; }
+  .lvl2 { color:#FAB387; font-weight:700; margin-top:34px; }
+  .lvl3 { color:#94E2D5; font-weight:700; margin-top:34px; }
+  .item { margin:14px 0 0 34px; }
+  .fix { color:#A6E3A1; margin:6px 0 0 68px; }
+  .dim { color:#7F849C; }
+  .end { margin-top:52px; padding-top:36px; border-top:2px solid #45475A; color:#F9E2AF; }
+</style>
+</head>
+<body>
+  <div class="bar"><div class="dot r"></div><div class="dot y"></div><div class="dot g"></div><span>AI 运营助理 — 合规自查</span></div>
+  <div class="inner">
+    <div class="hd">【合规报告】风险等级：<span class="risk">🔴 不能发</span></div>
+
+    <div class="lvl1">L1 法律红线（2 处）</div>
+    <div class="item">“<span class="risk">全网最好用</span>” → 广告法绝对化用语</div>
+    <div class="fix">✏️ 改为：“我这一个月一直在回购的面霜”</div>
+    <div class="item">“<span class="risk">100%有效</span>” → 虚假承诺</div>
+    <div class="fix">✏️ 改为：“实测一个月，变化在图三”</div>
+
+    <div class="lvl2">L2 平台违禁（1 处）</div>
+    <div class="item">“<span class="risk">私信我，加微信有优惠</span>” → 站外引流暗语</div>
+    <div class="fix">✏️ 改为：“想了解的姐妹评论区聊～”</div>
+
+    <div class="lvl3">L3 限流风险（1 处）</div>
+    <div class="item">“白到发光” → 美白功效宣称审核加严</div>
+    <div class="fix">💡 改为：“提亮效果挺明显的”</div>
+
+    <div class="end">【结论】三处硬伤必须改。<span class="dim">尤其是“加微信”——封号级动作。</span></div>
+  </div>
+</body>
+</html>
